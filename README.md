@@ -29,9 +29,7 @@ with open("text.txt") as f:
             
             
 ## OUTPUT:
-Developed by: Lavanya M
 
-Reference number: 22009026 
 ![](./last.png)
 ![](copy1.png)
 ![](./copy2.png)
