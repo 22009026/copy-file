@@ -6,13 +6,13 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 
-Step 1: Import pandas as pd.
+Step 1: Open the first txt file and read it
 
-Step 2: Read the CSV file using read_csv method.
+Step 2: After that open the second file and append the first one to it
 
-Step 3: Use head and tail method to get the required contents from the file.
+Step 3: Start the for loop
 
-Step 4: Use len() method to get the number of rows and columns
+Step 4: Then write the lines from the first one to the second file using the write function
 
 Step 5: Print the output
 
@@ -20,20 +20,20 @@ Step 5: Print the output
 ```python
 #Developed by: Lavanya M
 #Register Number: 22009026
-import pandas as pd
-df = pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail())
-print("rows",len(df.axes[0]))
-print("columns",len(df.axes[1]))
+
+with open("text.txt") as f:
+    with open("text1.txt", "w") as f1:
+        for line in f:
+            f1.write(line)
 ```
+            
             
 ## OUTPUT:
 Developed by: Lavanya M
 
 Reference number: 22009026 
-
-![](NEW%20nba.png)
+![](copy1.png)
+![](./copy2.png)
 
 
 ## RESULT:
