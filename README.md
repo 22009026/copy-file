@@ -33,8 +33,7 @@ Developed by: Lavanya M
 
 Reference number: 22009026 
 
-![](copy%20file.png)
-
+![](NEW%20nba.png)
 
 
 ## RESULT:
